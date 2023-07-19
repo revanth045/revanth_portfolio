@@ -1,0 +1,129 @@
+@import url('http://fonts.googleaois.com/css2?family=Hindi&display=swap');
+
+*{  
+    font-family: 'Hindi', sans-serif;
+}
+body{
+    background-color: rgb(36, 34, 34);
+    color:antiquewhite;
+}
+.bannerBgImage{
+    height: 100vh;
+    background: url("images/background_image.jpg");
+    background-size: cover;
+    position: relative;
+    
+}
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.bannerTitle{
+    font-size: 2.5rem;
+    font-style: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bannerDesc{
+    font-size: 1.5rem;
+    font-style:inherit;
+    font-weight: 100;
+    margin-top: 1rem;
+    color:rgb(156, 106, 48);
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: palevioletred;
+    border: 2px solid yellowgreen;
+}
+.rev1{
+    display: inline-block;
+    margin:30px;
+    cursor: pointer;
+}
+.service{
+    background-color: whitesmoke;
+    color:black;
+    border-radius: 12px;
+}
+.service-after:hover{
+    background-color: bisque;
+    border:2px solid rgb(231, 185, 0);
+    box-shadow: 5px 5px 10px 1px greenyellow;
+
+}
+.service-img{
+    width: 350px;
+    height: 290px;
+    padding: 10px;
+    padding-left: 13px;
+    border-radius: 100px ;
+}
+.service-title{
+    text-align: center;
+
+}
+.service-text{
+    text-align: center;
+}
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.card-img{
+    width: 500px;
+    height: 290px;
+    border-radius: 100px ;
+}
+.img-fluid:hover{
+    border: 2px solid rgb(169, 186, 185);
+    box-shadow:  5px 5px 10px 1px rgb(191, 136, 18);
+    
+}
+.nav-link{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:aqua;
+}
+.multicolor-text {
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(to left,
+            
+            indigo,
+            blue,
+            violet,
+            yellow,
+            orange,
+            red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.slideshow-container {
+    display: grid;
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36,34.34);
+  }
+  
+  .slideshow-container img {
+    display: none;
+    width: 900px;
+    height: 600px;
+    max-width: 100%;
+   
+  }
+  .prev {
+    left: 0;
+    display: iblock;
+  }
